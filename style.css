@@ -1,0 +1,226 @@
+/* main objects style */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EFECCA;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+}
+#wrapper {
+	width: 940px;
+	margin: auto;
+	padding: 0;
+	background-color: #FFF;
+	background-image: url(images/grand_canyon.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border-left: 2px solid #D8D0AC;
+	border-right: 2px solid #D8D0AC;
+}
+#header {
+	background-image: url(images/journey_header.jpg);
+	background-repeat: no-repeat;
+	height: 176px;
+}
+#sidebar {
+	width: 219px;
+	float: left;
+}
+#mainContent {
+	border-left: 1px solid #D8D0AC;
+	margin: 0 0 0 220px;
+}
+#footer {
+	margin: 110px 10px 0 auto;
+	text-align: right;
+	text-indent: 0;	
+}
+.reversed {
+	color:#FFF0A5;
+	background-color:#333;
+	padding: 3px 5px;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+/* headers style */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #468966;
+	font-family: Georgia, "Times New Roman", Times, sans-serif;
+	margin: 10px;
+}
+h1 {
+	margin: 0 0 0 -9000px;
+}
+h1 + p, h2 + p, h3 + p, #mainContent p:first-child {
+	text-indent: 0;
+}
+
+/* main text style */
+
+#mainContent p:first-child {
+	padding-top: 10px;
+}
+p, table {
+	font-size: 14px;
+}
+p {
+	text-indent: 30px;
+	text-align: justify;
+	line-height: 1.4;
+	margin: 0 10px 0.4em 45px;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+  color:#B64926;
+}
+a:visited {
+  color:#FFB03B;
+}
+a:hover, a:active {
+  color:#8E2800;
+  text-decoration:underline overline;
+}
+
+/* navigation bar's style */
+
+#nav {
+	list-style-type: none;	
+	margin: 0;
+	padding: 0;
+	height: 2.5em;
+}
+#nav li {
+	float: left;
+	margin: 0;
+	width: 165px;
+	background-color: #AA8346;
+}
+#home {
+	width: 115px !important;
+}
+#nav li a {
+	text-decoration: none;
+	font-weight: bold;
+	display:block;
+	padding:0.5em 10px 0.5em 20px;
+	border-top:#C9B089 2px solid;
+	border-left:#C9B089 2px solid;
+	border-right:#5B4625 2px solid;
+	border-bottom:#5B4625 2px solid;
+	color: #FFF;
+	
+}
+#nav a:link, #nav a:visited {
+	background-color: #AA8346;
+	color: #FFF;
+}
+#nav a:hover, #nav a:active {
+	background-color: #CDB187;
+	border-top:#5B4625 2px solid;
+	border-left:#5B4625 2px solid;
+	border-right:#C9B089 2px solid;
+	border-bottom:#C9B089 2px solid;
+}
+
+/* side bar's style */
+
+#sidebar h2, #sidebar h3 {
+	color: #AA8346;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-bottom: 2px;
+	border-bottom: 2px solid;
+}
+#sidebar h2 {
+	font-size: 20px;
+}
+#sidebar h3 {
+	font-size: 16px;
+	background-image: url(images/flower2.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 20px 0 4px 40px;
+}
+#sidebar p {
+	margin: 0 10px 0.75em 25px;
+	text-indent: 0;
+	text-align: left;
+}
+#sidebar a:link {
+  color: #466A89;
+}
+#sidebar a:visited {
+  color: #82B0D5;
+}
+#sidebar a:hover, #sidebar a:active {
+  color: #FFF;
+  background-color: #466A89;
+  text-decoration: none;
+}
+
+/* quotes style */
+
+#tr_quote {
+	margin: 37px auto 70px 363px;
+	width: 275px;
+	background-color:#FFFEF1;
+	background-image:url(images/flower2.png);
+	background-repeat:no-repeat;
+	background-position:97% 95%;
+	border: 3px solid;
+	border-top-color:#CAC7B0;
+	border-right-color:#606249;
+	border-bottom-color:#606249;
+	border-left-color:#CAC7B0;
+	padding: 10px;
+}
+blockquote p {
+	font-style: italic;
+	text-indent: 0;
+	white-space: pre-line;
+	margin-left: 0;
+	margin-right: 0;
+	
+}
+
+/* table's style */
+
+table {
+	margin: 0 auto;
+}
+caption {
+	font-size:18px;
+	color:#468966;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+th {
+	font-weight: normal;
+	text-align: right;
+}
+
+/* image's style */
+
+.floatleft {
+	float: left;
+	margin: 3px 8px 3px 0;
+}
+.floatright {
+	float: right;
+	margin: 3px 0 3px 8px;
+}
+.floatleft img, .floatright img {
+	display: block;
+	margin: 0 auto;
+}
+.floatleft, .floatright {
+	border: 4px double #468966;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px;
+}
